@@ -1,0 +1,138 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFFFFF;
+}
+
+.navbar-main-container {
+    background-color: #0077B6;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-main-container:hover {
+    box-shadow: 0px 9px 8px blue;
+}
+
+.main-logo {
+    border-radius: 50px;
+}
+
+.logo-container {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+}
+
+.heading {
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.nav-links {
+    color: none;
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    padding: 15px;
+
+}
+
+
+.auth-nav-links {
+    background-color: none;
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.main-image {
+    margin-top: 20px;
+    width: 600px;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.main-content-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-heading {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.project-sub-heading {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 12px 22px;
+    background: #FF6F00;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    background: #0077B6;
+}
+
+.sinup {
+    color: #f8fbff;
+}
+
+.login {
+    color: #f8fbff;
+}
+
+.contact {
+    color: #f8fbff;
+}
+
+.home {
+    color: #f8fbff;
+}
+
+.about {
+    color: #f8fbff;
+}
+
+.destination {
+    color: #f8fbff;
+}
+
+.services {
+    color: #f8fbff;
+}
+
+.booking {
+    color: #f8fbff;
+}
+
+.travel {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    color: #0077B6;
+
+}

@@ -1,0 +1,223 @@
+/* ---------- Global Styling ---------- */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #F8FBFF;
+    color: #333;
+}
+
+
+/* Navbar */
+.navbar-main-container {
+    background-color: #0077B6;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-main-container:hover {
+    box-shadow: 0px 9px 8px blue;
+}
+
+.main-logo {
+    border-radius: 50px;
+}
+
+.logo-container {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+}
+
+.heading {
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.nav-links {
+    color: none;
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    padding: 15px;
+
+}
+
+
+.auth-nav-links {
+    background-color: none;
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.sinup {
+    color: #f8fbff;
+}
+
+.login {
+    color: #f8fbff;
+}
+
+.contact {
+    color: #f8fbff;
+}
+
+.home {
+    color: #f8fbff;
+}
+
+.about {
+    color: #f8fbff;
+}
+
+.destination {
+    color: #f8fbff;
+}
+
+.services {
+    color: #f8fbff;
+}
+
+.booking {
+    color: #f8fbff;
+}
+
+/* ---------- About Section ---------- */
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 10%;
+    gap: 50px;
+}
+
+.about-text {
+    width: 50%;
+}
+
+.about-text h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+.explore-btn {
+    display: inline-block;
+    padding: 12px 22px;
+    background: #FF6F00;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.explore-btn:hover {
+    background: #0077B6;
+}
+
+.about-img img {
+    width: 450px;
+    border-radius: 14px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* ---------- Team Section ---------- */
+.staff-section {
+    background: #F8FBFF;
+    padding: 50px 10%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.title {
+    font-size: 35px;
+    color: #023047;
+    text-decoration: underline;
+}
+
+.intro {
+    font-size: 18px;
+    width: 80%;
+    margin: 10px auto 40px auto;
+    line-height: 1.6;
+    color: #023047;
+}
+
+/* ------- STAFF GRID ------- */
+.staff-grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 25px;
+}
+
+/* ------- STAFF CARD ------- */
+.staff-card {
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 30px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.staff-card:hover {
+    transform: translateY(-7px);
+    border: 2px solid #00B4D8;
+}
+
+/* ------- IMAGE STYLE ------- */
+.staff-card img {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #0077B6;
+    object-fit: cover;
+}
+
+/* ------- TEXT STYLE ------- */
+.staff-card h3 {
+    margin-top: 12px;
+    color: #023047;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.position {
+    margin-top: 5px;
+    color: #0077B6;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* ------- ENDING MESSAGE ------- */
+.ending {
+    font-size: 18px;
+    margin-top: 40px;
+    line-height: 1.7;
+}
+
+.highlight {
+    font-size: 20px;
+    color: #FF6F00;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px){
+  body {
+    background-color: #ffffff;
+    font-size: 15px;
+  }
+}
