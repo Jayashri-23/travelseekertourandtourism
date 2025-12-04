@@ -9,11 +9,12 @@ body {
     color: #023047;
     line-height: 1.5;
 
-     background: url(./../images/login-page-img.jpg) no-repeat center center fixed;
-            background-size: cover;
-            margin: 0;
-            padding: 0;
+    background: url(./../images/login-page-img.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
 }
+
 .navbar-main-container {
     background-color: #0077B6;
     padding: 15px;
@@ -21,8 +22,8 @@ body {
     justify-content: space-between;
     align-items: center;
 
-     position: sticky;
-            top:0;
+    position: sticky;
+    top: 0;
 
 }
 
@@ -112,84 +113,84 @@ body {
 }
 
 .sinup {
-       color: #f8fbff;
-       font-size: 20px;
-       text-decoration: none;
-   }
+    color: #f8fbff;
+    font-size: 20px;
+    text-decoration: none;
+}
 
-   .login {
-       color: #f8fbff;
-       font-size: 20px;
-       text-decoration: none;
-   }
+.login {
+    color: #f8fbff;
+    font-size: 20px;
+    text-decoration: none;
+}
 
-   .contact {
-       color: #f8fbff;
-       font-size: 20px;
-       text-decoration: none;
-   }
+.contact {
+    color: #f8fbff;
+    font-size: 20px;
+    text-decoration: none;
+}
 
-   .home {
-       color: #f8fbff;
-       font-size: 20px;
-       text-decoration: none;
-   }
+.home {
+    color: #f8fbff;
+    font-size: 20px;
+    text-decoration: none;
+}
 
-   .about {
-       color: #f8fbff;
-       font-size: 20px;
-       text-decoration: none;
-   }
+.about {
+    color: #f8fbff;
+    font-size: 20px;
+    text-decoration: none;
+}
 
-   .destination {
-       color: #f8fbff;
-       font-size: 20px;
-       text-decoration: none;
-   }
+.destination {
+    color: #f8fbff;
+    font-size: 20px;
+    text-decoration: none;
+}
 
-   .services {
-       color: #f8fbff;
-       font-size: 20px;
-       text-decoration: none;
-   }
+.services {
+    color: #f8fbff;
+    font-size: 20px;
+    text-decoration: none;
+}
 
-   .booking {
-       color: #f8fbff;
-       font-size: 20px;
-       text-decoration: none;
-   }
+.booking {
+    color: #f8fbff;
+    font-size: 20px;
+    text-decoration: none;
+}
 
-   .package {
-       color: #f8fbff;
-       font-size: 20px;
-       text-decoration: none;
-   }
+.package {
+    color: #f8fbff;
+    font-size: 20px;
+    text-decoration: none;
+}
 
 
 .container {
-       display: flex;
-         min-height: 500px;
+    display: flex;
+    min-height: 500px;
 
-         background: url(./../images/login-page-img.jpg) no-repeat center/cover;
-         align-items: center;
-         padding-bottom: 60px;
+    background: url(./../images/login-page-img.jpg) no-repeat center/cover;
+    align-items: center;
+    padding-bottom: 60px;
 }
 
 .left-side {
-   
+
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .overlay {
- margin-bottom: 350px;
-     padding-top: 200px;     
-   
+    margin-bottom: 350px;
+    padding-top: 200px;
+
     border-radius: 10px;
     text-align: center;
     color: #FFFFFF;
-     padding-left:55px ;
+    padding-left: 55px;
 }
 
 .quote {
@@ -220,7 +221,7 @@ body {
     width: 600px;
     max-width: 450px;
     height: 530px;
-    
+
 
 }
 
@@ -265,8 +266,14 @@ body {
 }
 
 .btn-primary {
-    background-color:  #FF6F00;
+    background-color: #FF6F00;
     color: #FFFFFF;
+    align-items: center;
+    width: 150px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 60px;
+    padding: 10px 100px 10px 100px;
 
 }
 
