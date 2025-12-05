@@ -6,14 +6,14 @@
 <title>Top Destinations & Packages</title>
 
 <style>
-    body {
+body {
     margin: 0px;
     padding: 0px;
-    background-color: #957bf3;
+    background-color: #FFFFFF;
 }
 
 .navbar-main-container {
-    background-color: #3806eb;
+    background-color: #07a3f7;
     padding: 15px;
     display: flex;
     justify-content: space-between;
@@ -146,8 +146,7 @@
     color: #0077B6;
 
 }
-
-    header {
+ header {
         background: #0055b3;
         padding: 20px;
         text-align: center;
@@ -155,6 +154,20 @@
         font-size: 28px;
         font-weight: bold;
     }
+    /* Video Styling */
+.video-box {
+  width:100%;
+  max-width:none;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(255, 255, 255, 0.2);
+}
+video {
+  width:1340px;
+  padding: 0%;
+  display: block;
+  border-radius: 16px;
+}
 
     .container {
         display: grid;
@@ -237,8 +250,16 @@
         </div>
 
 <header>Top Travel Destinations & Holiday Packages</header>
+<div class="video-box">
+  <!-- 🎥 30-Second Tourism Video -->
+  <video controls autoplay muted>
+    <source src="/video/destination3.mp4" type="video/mp4">
+    Your browser does not support video tag.
+  </video>
+</div>
 
 <div class="container">
+
 
     <!-- 1 -->
     <div class="card">
